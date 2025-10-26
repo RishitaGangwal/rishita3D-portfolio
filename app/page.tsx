@@ -343,7 +343,7 @@ export default function Component() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="max-w-md mx-auto">
               <h2 className="text-4xl tracking-tight font-poppins font-semibold opacity-90">
-                Where I've Worked
+                Where I&apos;ve Worked
               </h2>
               <div className="bg-gradient-to-r from-transparent via-neutral-300 dark:via-neutral-700 to-transparent my-8 h-[2px] w-full mb-16" />
             </div>
