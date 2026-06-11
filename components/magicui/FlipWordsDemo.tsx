@@ -2,7 +2,7 @@ import React from "react";
 import { FlipWords } from "../ui/flip-words";
 
 export function FlipWordsDemo() {
-  const words = ["react", "next.js", "tailwindcss"!];
+  const words = ["Java", "React","MySQL"!];
 
   return (
     <div className="flex justify-center items-center md:w-full w-[300px] md:ml-0 ml-[3rem] ">

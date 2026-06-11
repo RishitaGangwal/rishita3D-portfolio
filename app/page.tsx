@@ -35,7 +35,7 @@ const copyToClipboard = () => {
 };
 
 const contact = {
-  email: "rishitagangwal5@gmail.com",
+  email: "rishitagangwal.work@gmail.com",
   social: [
     {
       name: "GitHub",
@@ -80,11 +80,11 @@ const projects = [
       " An AI-powered SQL assistant that helps users generate and explain SQL queries easily.",
     technologies: ["ReactJs", "TailwindCSS", "Java", "Spring Boot, MySQL"],
     links: [
-      {
-        type: "Live",
-        href: "prompt-sql.vercel.app",
-        icon: <IconExternalLink className="h-4 w-4" />,
-      },
+      // {
+      //   type: "Live",
+      //   href: "prompt-sql.vercel.app",
+      //   icon: <IconExternalLink className="h-4 w-4" />,
+      // },
       {
         type: "Source",
         href: "https://github.com/RishitaGangwal/prompt-sql",
@@ -168,19 +168,18 @@ export default function Component() {
                 Hi, I&apos;m Rishita👋
               </h1>
               <span className="mt-[5rem] md:w-[600px] w-[20px] md:text-xl ">
-                A dedicated frontend developer focused on engaging user
-                interface.
+                A Full-Stack Software Engineer building modern web applications.
               </span>
             </div>
             <div className="">
               <Link
-                href="https://drive.google.com/file/d/1PuL156t27Y4fPkp-8zXN8hGEKozpRHeO/view?usp=sharing"
+                href="https://drive.google.com/file/d/1Dj3PTm1fBIAwCAPX-G3FyL4Zbs8T-X3u/view?usp=sharing"
                 target="blank"
                 className={cn(
                   buttonVariants({
                     size: "lg",
                   }),
-                  "mt-5 px-4 py-2 text-black backdrop-blur-sm border border-black rounded-md hover:shadow-[0px_0px_4px_4px_rgba(0,0,0,0.1)] bg-white/[0.2] text-sm transition duration-200 hover:text-white"
+                  "mt-5 px-4 py-2 text-black backdrop-blur-sm border border-black rounded-md hover:shadow-[0px_0px_4px_4px_rgba(0,0,0,0.1)] bg-white/[0.2] text-sm transition duration-200 hover:text-white",
                 )}
               >
                 Resume
@@ -255,21 +254,24 @@ export default function Component() {
             <div className="md:flex flex-col">
               <div className="md:max-w-[500px] max-w-[350px] md:text-md md:mr-[20rem] md:ml-0 ml-[2rem] justify-center items-center">
                 <p className="mt-[2rem]  text-justify">
-                  Hi there! I’m an MCA graduate from SGSITS, Indore, passionate
-                  about transforming complex ideas into intuitive, user-friendly
-                  applications. I enjoy diving into new projects and bringing
-                  fresh, creative solutions to the table. 🚀
+                  I enjoy building web applications and learning how things work
+                  behind the scenes. Most of my work revolves around Java,
+                  Spring Boot, React, and MySQL, and I like creating
+                  applications that are both functional and easy to use.
                 </p>
                 <br></br>
                 <p className="text-justify">
-                  What exciting projects are you working on? How can I help you
-                  achieve your biggest goals? Let’s connect and create something
-                  remarkable together!✨
+                  I`&apos`m someone who enjoys solving problems, exploring new
+                  technologies, and continuously improving my skills. Whether
+                  it`&apos`s working on the backend, designing APIs, or building a
+                  complete full-stack project, I enjoy the process of turning
+                  ideas into real applications.
                 </p>
                 <br></br>
                 <p className="text-justify">
-                  I’m excited to explore how my skills and enthusiasm can add
-                  value to your team. Let’s make great things happen!
+                  As an MCA graduate from SGSITS, Indore, I`&apos`m always looking for
+                  opportunities to learn, grow, and work on meaningful projects
+                  that make a real impact.
                 </p>
               </div>
               <div className="absolute md:top-0 md:left-0 md:ml-[20rem] h-[400px] w-full max-w-full flex items-center justify-center overflow-hidden rounded-lg md:mt-0 mt-[1rem]">
@@ -502,7 +504,7 @@ export default function Component() {
           </div>
           <hr className="h-px my-2 bg-gray-300 border-0 dark:bg-gray-700 w-[100%] mx-auto" />
           <h2 className="mb-5 text-sm tracking-normal font-semibold">
-            © 2025 Rishita Gangwal
+            © 2026 Rishita Gangwal
           </h2>
         </div>
       </section>
